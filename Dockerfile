@@ -11,4 +11,4 @@ VOLUME ["/var/www", "/var/www/html", "/var/log"]
 
 EXPOSE 80 443
 
-
+CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
